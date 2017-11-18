@@ -1,0 +1,43 @@
+{
+    "name": "codfee/instagram",
+    "description": "An easy-to-use instagram tags,users,likes,posts and simple Instagram api package",
+    "license": "MIT",
+    "keywords": ["instagram", "media", "tags", "feed", "recent"],
+    "authors": [
+        {
+            "name": "Xalid Balagozov",
+            "email": "xalidbalagozov@gmail.com",
+            "homepage": "http://phpdevelop.xyz"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "php-http/client-implementation": "^1.0",
+        "php-http/discovery": "^1.2",
+        "php-http/httplug": "^1.1",
+        "php-http/message-factory": "^1.0"
+    },
+    "require-dev": {
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.5",
+        "php-http/mock-client": "^1.0",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodFee\\Instagram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodFee\\Tests\\Instagram\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
